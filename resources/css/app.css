@@ -1,0 +1,41 @@
+/* @import 'primevue/resources/themes/lara-light-blue/theme.css'; */
+
+
+@import 'primeicons/primeicons.css';
+@import 'primeflex/primeflex.css';
+@import './custom.css';
+@import './theme.css';
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/public/fonts/opensans.ttf');
+}
+
+@font-face {
+    font-family: 'Open Sans Semibold Italic';
+    src: url('/public/fonts/opensans_semibold_italic.ttf');
+}
+
+body {
+    margin: 0;
+}
+
+body,
+body .p-component,
+
+body .p-inputtext {
+    font-family: 'Open Sans' !important;
+    font-size: 13px !important;
+}
+
+body .p-datepicker-calendar  span{
+    font-family: 'Open Sans' !important;
+    font-size: 14px !important;
+}
+
+.font-opensans-italic {
+    font-family: 'Open Sans Semibold Italic';
+}
+
